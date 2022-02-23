@@ -31,6 +31,7 @@ public class OaTestController {
         System.out.println(serviceUrl);
         //String  ret = HttpClientUtil.getJsonString(serviceUrl);
         //System.out.println(ret);
+
         response.sendRedirect(serviceUrl);
     }
 
