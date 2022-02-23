@@ -79,6 +79,7 @@ public class RandomUtil {
 
     public static void main(String[] args) {
 
+
         for(int i = 0 ; i< 10000 ; i ++){
             System.out.println(RandomUtil.getNotRepeatRandom());
             System.out.println(list.size());
